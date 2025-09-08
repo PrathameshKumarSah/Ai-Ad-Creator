@@ -1,0 +1,5 @@
+{
+  "name": "AI Ad Creator",
+  "description": "An application to generate stunning product advertisements using AI. Users can upload a product image, select dimensions and styles, and provide a prompt to create unique ad visuals.",
+  "requestFramePermissions": []
+}

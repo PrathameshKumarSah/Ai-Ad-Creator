@@ -5,11 +5,11 @@ This is an interactive web application designed to empower users to transform si
 * **AI-Powered Generation Process**: The ad creation is a streamlined, single-stage AI generation process driven by user input:
 
 
-1. **Product Upload**: The user begins by uploading an image of the product they wish to advertise.
+   1. **Product Upload**: The user begins by uploading an image of the product they wish to advertise.
 
-2. **Ad Configuration**: The user then provides creative direction through a simple interface, selecting the ad's dimensions (e.g., 1:1 Square, 9:16 Story), its artistic style (e.g., Photorealistic, 3D Render, Cartoon), a descriptive prompt for the scene (e.g., "product on a marble pedestal with cinematic lighting"), and optional ad text (e.g., "New Arrival", "50% Off").
+   2. **Ad Configuration**: The user then provides creative direction through a simple interface, selecting the ad's dimensions (e.g., 1:1 Square, 9:16 Story), its artistic style (e.g., Photorealistic, 3D Render, Cartoon), a descriptive prompt for the scene (e.g., "product on a marble pedestal with cinematic lighting"), and optional ad text (e.g., "New Arrival", "50% Off").
 
-3. **Image Generation**: All of these inputs—the product image, dimension, style, scene description, and ad text—are compiled into a detailed multimodal prompt. This prompt is sent to the gemini-2.5-flash-image-preview model, which generates a completely new, cohesive advertisement that seamlessly integrates the product into the desired context.
+   3. **Image Generation**: All of these inputs—the product image, dimension, style, scene description, and ad text—are compiled into a detailed multimodal prompt. This prompt is sent to the gemini-2.5-flash-image-preview model, which generates a completely new, cohesive advertisement that seamlessly integrates the product into the desired context.
 
 * **Interactive User Experience**: The UI is designed for an intuitive workflow, featuring a two-column layout where configuration controls are on the left and the resulting ad is displayed on the right. The application provides real-time feedback with loading indicators during the generation process. If an error occurs, a clear, user-friendly message is displayed.
 
